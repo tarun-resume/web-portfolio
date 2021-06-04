@@ -1,0 +1,111 @@
+{
+  "links": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "interests": "Interests"
+  },
+  "personalInfo": {
+    "name": "Tarun",
+    "lastName": "Verma",
+    "subHeadingText": [
+      "Software Professional",
+      "Full Stack Developer",
+      "Code enthusiast!"
+    ],
+    "city": "Karnal, Haryana, India",
+    "phoneNumber": "+91-9996061888",
+    "email": "tarun.verma151@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/tarun-verma-4782809a/",
+    "github": "https://github.com/tarunve/",
+    "facebook": "https://www.facebook.com/tarun.verma.96/",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=919996061888",
+    "google-drive-resume":"https://drive.google.com/file/d/12KaD5ATJL3MizACdznh0Dz1v0GGY_ut3/view",
+    "resume-download":"https://drive.google.com/uc?export=download&id=12KaD5ATJL3MizACdznh0Dz1v0GGY_ut3",
+    "myDescription": "Software Professional with 6+ years of experience in development"
+  },
+  "educationDegrees": {
+    "title": "Education 📕",
+    "degrees": [
+      {
+        "collage": "GURU JAMBHESHWAR UNIVERSITY OF SCIENCE & TECHNOLOGY, HISAR, HARYANA",
+        "name": "BACHELOR OF TECHNOLOGY (B.TECH)",
+        "itemList": ["Computer Science (CGPA - 6.9)"],
+        "startEndDate": "July 2010 - July 2014"
+      },
+      {
+        "collage": "S.B.S. Senior Secondary School",
+        "name": "XII & X",
+        "itemList": ["XII - 2010 (89.6%)", "X - 2008 (84.6%)"],
+        "startEndDate": ""
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Work Expecience 🔨",
+    "works": [
+      {
+        "position": "Senior Consultant",
+        "companie": "Capgemini, India",
+        "responsabilities": [
+          "Financial domain services",
+          "Full Stack development with latest technologies and architecture"
+          ],
+        "startEndDate": "February 2021 - Present"
+      },
+      {
+        "position": "Software Developer",
+        "companie": "Amdocs development center India",
+        "responsabilities": [
+          "Interface discussions with different stakeholders to formulate the design.",
+          "Architecting the technical solution and design implementation.",
+          "Leading POCs, performance & code reviews, and implement complex business needs",
+          "Upgrading the existing technologies and library versions as per the need and compliance.",
+          "Deploying the releases in clustered production environments.",
+          "Onsite Travels for the customer engagement and sharing knowledge with them and getting their feedback."
+        ],
+        "startEndDate": "December 2014 - Feb 2021"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills 🎯",
+    "iconsTitle": "Programming Languages & Tools",
+    "devIcons": [
+      "devicon-java-plain-wordmark colored",
+      "devicon-javascript-plain -wordmark colored",
+      "devicon-html5-plain-wordmark colored",
+      "devicon-css3-plain-wordmark colored",
+      "devicon-spring-original",
+      "devicon-nodejs-plain -wordmark colored",
+      "devicon-angularjs-original colored",
+      "devicon-intellij-original-wordmark colored",
+      "devicon-visualstudio-plain -wordmark colored colored",
+      "devicon-git-plain-wordmark colored",
+      "devicon-github-original colored",
+      "devicon-oracle-original colored",
+      "devicon-tomcat-line-wordmark colored",
+      "devicon-jenkins-line colored",
+      "devicon-linux-plain -wordmark colored",
+      "devicon-windows8-original colored"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "Languages: JAVA, C++, Javascript",
+      "Tools: SQL Developer, Toad, Putty, Maven, Perforce, Git, Jenkins, SONAR",
+      "Database: Oracle",
+      "Application Server: WebLogic Application Server and Apache Tomcat",
+      "Frameworks: Spring Core, Hibernate, JUnit, Angular",
+      "Concepts: Data Structures, Design Patterns",
+      "Operating System: Windows, Linux"
+    ]
+  },
+  "interests": {
+    "title": "Hobbies ⛳",
+    "hobbies": [
+      "I enjoy solving rubik's cube in my spare time.",
+      "I spend a large amount of my free time exploring the latest technolgy advancements 🙌👨‍💻"
+    ]
+  }
+}
