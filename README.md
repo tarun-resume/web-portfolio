@@ -1,5 +1,8 @@
-An easy way to **build** you own personal web resume! 💪
-### [Demo - My Portfolio](https://tarunve.github.io/)
+# web-portfolio
+
+An easy way to **build** you own personal web resume!! 💪
+
+### [Demo - Tarun](https://tarun-verma.web.app)
 
 ## Pre-Requisites 
 
@@ -59,10 +62,17 @@ i18n: {
 2) All the **generated** code will be apear in the `./dist` folder.
 
 
-## Used Technologies/Tools 🔧🦾
-
-- [VueJs](https://vuejs.org/)
-- [Nuxt](https://nuxtjs.org/)
-- [i18n](https://nuxtjs.org/examples/i18n/)
-- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
-- [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+## Firebase Hosting:
+1)	Install firebase cli
+		```npm install -g firebase-tools```
+2)	Login to firebase:
+		```firebase login```
+1)	Add a secret to your repository : FIREBASE_TOKEN . vaue should be your token generated from ```firebase login``` command
+2)	Modify the ```.firebaserc```
+```
+{
+  "projects": {
+    "default": "FIREBASE-PROJECT-ID"
+  }
+}
+```
