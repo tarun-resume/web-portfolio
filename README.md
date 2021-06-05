@@ -24,14 +24,14 @@ An easy way to **build** you own personal web resume!! 💪
 ***You can easily customize the template and the languages!*** 🚀
 - To do this, you have to **edit** the **locales** files as you want! 📄
 
-![locates](./documentation/localefiles.jpg)
+![locates](./static/images/documentation/localefiles.jpg)
 
 ### Languages Files 🌍
 **English**: `./locales/en.json`
 
 ### Add new Language
 1) **Create** a new language file in the folder `./locales` :
-- **eg.** : `fr.json`
+- **eg.** : `fr.json or es.json`
 2) **Change** **i18n** configuration in the ***nuxt.config.js***, 
 ```javascript
 i18n: {
