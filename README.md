@@ -4,6 +4,13 @@ An easy way to **build** you own personal web resume!! 💪
 
 ### [Demo - Tarun](https://tarun-verma.web.app)
 
+---
+
+![profile](./static/images/tarun-profile-sample.png)
+
+
+---
+
 ## Pre-Requisites 
 
 - Install [NodeJS](https://nodejs.org/)
