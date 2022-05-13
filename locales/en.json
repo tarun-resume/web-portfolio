@@ -23,7 +23,7 @@
     "whatsapp": "https://api.whatsapp.com/send/?phone=919996061888",
     "google-drive-resume":"https://drive.google.com/drive/u/0/folders/1YNxUFrYYGYE8zk_iLjRuLNLULUmMCLjM",
     "resume-download":"https://drive.google.com/drive/u/0/folders/1YNxUFrYYGYE8zk_iLjRuLNLULUmMCLjM",
-    "myDescription": "Software Professional with 6+ years of experience in development"
+    "myDescription": "Software Professional with 7+ years of experience in development"
   },
   "educationDegrees": {
     "title": "Education 📕",
@@ -49,8 +49,10 @@
         "position": "Senior Consultant",
         "companie": "Capgemini, India",
         "responsabilities": [
-          "Financial domain services",
-          "Full Stack development with latest technologies and architecture"
+          "Working in Financial domain services (Retail)",
+          "Full Stack development with latest technologies and architecture",
+          "Acting as a Technical Lead for offshore team",
+          "Doing POCs for new Technology / Standard to be implemented in project"
           ],
         "startEndDate": "February 2021 - Present"
       },
@@ -93,10 +95,10 @@
     "workflow": "Workflow",
     "itemList": [
       "Languages: JAVA, C++, Javascript",
-      "Tools: SQL Developer, Toad, Putty, Maven, Perforce, Git, Jenkins, SONAR",
+      "Tools: SQL Developer, Toad, Putty, Maven, Perforce, Git, Jenkins, Sonarqube",
       "Database: Oracle",
       "Application Server: WebLogic Application Server and Apache Tomcat",
-      "Frameworks: Spring Core, Hibernate, JUnit, Angular",
+      "Frameworks: Spring Boot, Hibernate, JUnit, Angular",
       "Concepts: Data Structures, Design Patterns",
       "Operating System: Windows, Linux"
     ]
