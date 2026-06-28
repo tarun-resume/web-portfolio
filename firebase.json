@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "tarun-verma-c1cd3",
     "public": "public",
     "ignore": [
       "firebase.json",
