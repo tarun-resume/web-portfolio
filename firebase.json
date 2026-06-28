@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "tarun-verma-c1cd3",
-    "public": "public",
+    "public": ".output/public",
     "ignore": [
       "firebase.json",
       "**/.*",

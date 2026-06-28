@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dist
-          path: dist
+          path: .output/public
   deploy:
     name: Deploy
     needs: build
@@ -42,7 +42,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist
-          path: dist
+          path: .output/public
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
