@@ -91,6 +91,6 @@ sw.*
 .firebase
 
 # public folder
-public
+# public
 .output
 .vscode
