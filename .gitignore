@@ -92,3 +92,5 @@ sw.*
 
 # public folder
 public
+.output
+.vscode
