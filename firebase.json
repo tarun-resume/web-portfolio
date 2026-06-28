@@ -1,11 +1,16 @@
 {
   "hosting": {
-    "site": "tarun-verma", 
-    "public": "./dist",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
