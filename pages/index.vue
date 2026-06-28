@@ -10,7 +10,7 @@
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="/profile.jpg"
-            alt=""
+            alt="Profile Image"
           />
         </span>
       </a>
