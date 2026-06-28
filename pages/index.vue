@@ -74,7 +74,8 @@
           </li>
           <li class="nav-item">
             <div style="position:fixed; bottom:10px; right: 10px;z-index:1000;">
-              <nuxt-link class="btn btn-light" :to="switchLocalePath('en')">EN</nuxt-link>
+              <!-- This will now evaluate correctly -->
+              <NuxtLink class="btn btn-light" :to="switchLocalePath('en')">EN</NuxtLink>
             </div>
           </li>
         </ul>
@@ -88,23 +89,28 @@
 </template>
 
 <script>
-import Resume from "@/components/Resume";
-import DarkModeBtn from "@/components/DarkModeBtn";
 import jump from "jump.js";
 
 export default {
-  components: {
-    Resume,
-    DarkModeBtn
-  },
-  head() {
-    return {
+  // REMOVED: Explicit component imports (Nuxt 3 auto-imports Resume and DarkModeBtn)
+  
+  setup() {
+    // Explicitly grab the routing composable context
+    const switchLocalePath = useSwitchLocalePath()
+
+    useHead({
       title: "Tarun Verma"
-    };
+    })
+
+    return {
+      switchLocalePath
+    }
   },
   methods: {
     jumpTo(element) {
-      jump(element);
+      if (process.client) {
+        jump(element);
+      }
     }
   }
 };

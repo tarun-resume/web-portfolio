@@ -1,25 +1,20 @@
 <template>
   <div>
-    <!-- Navigation -->
+    <!-- Optional: If you ever want to use your Navigation component, just uncomment it like this: -->
     <!-- <Navigation /> -->
-    <!-- Content -->
+    
+    <!-- Content Context Block -->
     <div class="container content">
-      <nuxt/>
+      <NuxtPage />
     </div>
   </div>
 </template>
 
-<!--
 <script>
-import Navigation from "@/components/Navigation"
-
-export default {
-  components: {
-    Navigation
-  }  
-}
+// No script or manual component registry is required here.
+// Nuxt 3 handles component resolution on its own behind the scenes.
+export default {}
 </script>
--->
 
 <style>
 html {

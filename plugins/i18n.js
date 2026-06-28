@@ -1,9 +1,7 @@
-// ~/plugins/myplugin.js
-
-export default ({ app }) => {
-    // Get localized path for homepage
-    const localePath = app.localePath('index')
-    // Get path to switch current route to Spanish
-    const switchLocalePath = app.switchLocalePath('es')
-  }
+export default defineNuxtPlugin((nuxtApp) => {
+  // Use the helper injected globally by the i18n module
+  const localePath = nuxtApp.$localePath('index')
+  const switchLocalePath = nuxtApp.$switchLocalePath('es')
   
+  // Your plugin logic here
+})

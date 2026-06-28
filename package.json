@@ -4,20 +4,21 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt",
+    "dev": "TMPDIR=/tmp nuxt dev",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^10.4.0",
     "jump.js": "^1.0.2",
     "nuxt": "^4.4.7",
-    "nuxt-i18n": "^6.28.1",
     "vue-awesome-swiper": "^5.0.1",
+    "vue-i18n": "^11.4.6",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
+    "@intlify/shared": "^11.4.6",
     "@nuxtjs/color-mode": "^4.0.0",
-    "@nuxtjs/style-resources": "^1.2.2",
     "node-sass": "^9.0.0",
     "pug": "^3.0.4",
     "pug-plain-loader": "^1.1.0",

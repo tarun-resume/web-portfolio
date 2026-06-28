@@ -1,11 +1,11 @@
 <template>
-    <nuxt-link :to="'/gallery/' + id">
+    <NuxtLink :to="'/gallery/' + id">
         <article class="gallery">
             <div class="thumbnail" :style="{backgroundImage: 'url('+ thumbnail +')'}"></div>
             <h1>{{ title }}</h1>
             <p>{{ previewText}}</p>
         </article>
-    </nuxt-link>
+    </NuxtLink>
     
 </template>
 
